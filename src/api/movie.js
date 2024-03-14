@@ -1,6 +1,6 @@
 import axios from "axios";
 export async function getMovies(page, size) {
-    let res = await axios.get('/api/movies', {
+    let res = await axios.get('http://study.duyiedu.com/api/movies', {
         params: {
             page,
             size
