@@ -1,0 +1,22 @@
+@import '@/common.less'; //// 混合使用（要会用）
+@gheight: 100vh;
+@gwidth: 100vh;
+
+.container {
+    height: @gheight;
+}
+
+.video {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.title {
+    color: #dbb259;
+    .abs-center();
+    font-size: 5em;
+    letter-spacing: 20px;
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+}
